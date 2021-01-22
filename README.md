@@ -10,8 +10,11 @@ And this is collection of several developments that have been carried out so far
 ### Installation
 
 ```
-$ git clone https://github.com/masokky/instagram-tools.git
-$ cd instagram-tools
+$ pkg upgrade && pkg update
+$ pkg install git
+$ pkg install nodejs-lts
+$ git clone https://github.com/br1prdo/instagram
+$ cd toolsig
 $ node index.js
 ```
 
